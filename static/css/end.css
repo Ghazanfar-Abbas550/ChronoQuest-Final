@@ -1,0 +1,162 @@
+:root{
+  --bg-0: #071018;
+  --bg-1: #0b1116;
+  --panel: #121416;
+  --panel-2: #1a1d20;
+  --text: #e9eef2;
+  --muted: #98a0a6;
+  --accent: #ff9800;
+  --accent-contrast: #000;
+  --card-border: rgba(255,255,255,0.04);
+  --glass: rgba(255,255,255,0.03);
+  --shadow: 0 8px 30px rgba(2,6,23,0.6);
+  --radius: 12px;
+  --gap: 12px;
+  --transition: 180ms cubic-bezier(.2,.9,.3,1);
+}
+
+/* Page background and overall layout */
+html,body{
+  height:100%;
+  margin:0;
+  padding:0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  background:
+    radial-gradient(1200px 600px at 10% 10%, rgba(0,60,80,0.10), transparent 8%),
+    linear-gradient(180deg, var(--bg-0) 0%, var(--bg-1) 100%);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  display:grid;
+  place-items:center;
+  box-sizing:border-box;
+}
+
+/* Keep layout centered and responsive */
+.end-container{
+  width:clamp(300px, 90vw, 420px);
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border: 1px solid var(--card-border);
+  padding: clamp(18px, 3.5vw, 32px);
+  border-radius: calc(var(--radius) + 4px);
+  text-align:center;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(6px) saturate(120%);
+  -webkit-backdrop-filter: blur(6px) saturate(120%);
+}
+
+/* Title and message styling */
+#end-title{
+  font-size: clamp(20px, 3.5vw, 28px);
+  margin: 0 0 8px 0;
+  line-height:1.1;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color:var(--text);
+  text-wrap: balance;
+}
+
+#end-message{
+  margin:0;
+  margin-bottom: var(--gap);
+  color:var(--muted);
+  font-size: 14px;
+  line-height:1.45;
+}
+
+/* Primary button: high-contrast, accessible focus ring, transitions */
+button{
+  -webkit-appearance:none;
+  appearance:none;
+  display:inline-block;
+  background: linear-gradient(180deg, var(--accent), color-mix(in srgb, var(--accent) 80%, black 10%));
+  color: var(--accent-contrast);
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 14px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.45), inset 0 -2px 0 rgba(255,255,255,0.03);
+  transition: transform var(--transition), box-shadow var(--transition), filter var(--transition);
+}
+
+/* Hover, active, and keyboard focus affordances */
+button:hover{
+  transform: translateY(-2px);
+  filter: brightness(1.03);
+}
+
+button:active{
+  transform: translateY(0);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+button:focus{
+  outline: none;
+}
+
+button:focus-visible{
+  box-shadow: 0 6px 18px rgba(0,0,0,0.45), 0 0 0 4px rgba(255,152,0,0.12);
+  border-radius: 8px;
+}
+
+/* Disabled state */
+button[disabled], button.disabled{
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Badges container: flexible, wraps nicely */
+#end-badges{
+  margin-top: 18px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:10px;
+}
+
+/* Individual badge tiles: subtle depth, hover lift, accessible focus */
+.badge{
+  background: linear-gradient(180deg, var(--panel-2), var(--panel));
+  color: var(--text);
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: default;
+  font-size: 13px;
+  border: 1px solid rgba(255,255,255,0.03);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.45);
+  transition: transform var(--transition), box-shadow var(--transition), background-color var(--transition);
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+}
+
+/* Hover/focus affordances for badges: raise and brighten */
+.badge:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.6);
+}
+
+.badge:focus{
+  outline:none;
+}
+
+.badge:focus-visible{
+  box-shadow: 0 12px 28px rgba(0,0,0,0.6), 0 0 0 4px rgba(255,152,0,0.06);
+  transform: translateY(-4px);
+}
+
+/* Small responsive adjustments */
+@media (max-width:420px){
+  .end-container{ padding:18px; width:92vw; }
+  #end-title{ font-size:20px; }
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce){
+  *{ transition: none !important; animation: none !important; transform: none !important; }
+}

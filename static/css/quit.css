@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eef2f6; /* softer, slightly bluish neutral */
+  color: #111827; /* dark slate for better contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #ffffff; /* clean white card */
+  padding: 32px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06); /* subtle modern shadow */
+  max-width: 420px;
+  width: 90%;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: linear-gradient(180deg, #2563eb 0%, #1e40af 100%); /* richer primary blue */
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.18);
+  transition: background 150ms ease, transform 120ms ease, box-shadow 150ms ease;
+  font-weight: 600;
+}
+button:hover {
+  background: linear-gradient(180deg, #1e40af 0%, #11307a 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(17, 48, 122, 0.18);
+}
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgba(17, 48, 122, 0.12);
+}
+button:disabled {
+  background: #cbd5e1;
+  cursor: not-allowed;
+  box-shadow: none;
+  color: #475569;
+}
+
+/* small utility to keep text readable and balanced */
+h1, h2, h3, p {
+  margin: 0 0 12px 0;
+}

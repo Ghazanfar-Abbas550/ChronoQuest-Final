@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChronoQuest Main</title>
+  <link rel="stylesheet" href="../static/css/main.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <header>
+    <img src="../static/img/chronoquest-logo.png" alt="ChronoQuest Logo" class="logo">
+    <div class="status">
+      <span id="player-name">Name:</span>
+      <span id="credits">Credits:</span>
+      <span id="range">Range:</span>
+      <span id="shards">Shards:</span>
+      <span id="fluxfire">Fluxfire:</span>
+    </div>
+    <div class="buttons">
+      <button id="btnHowTo">How to Play</button>
+      <button id="btnBuyRange">Buy Range</button>
+      <button id="btnBuyCredits">Buy Credits</button>
+      <button id="btnBadges">Badges</button>
+      <button id="btnQuit">Quit</button>
+        <button id="btnReload">Reload</button>
+    </div>
+  </header>
+
+  <div id="map-wrapper" style="height:600px;"></div>
+
+  <div id="sidebar" class="hidden" aria-hidden="true">
+    <div id="airport-info"></div>
+    <button id="btnTravel">Travel</button>
+  </div>
+
+  <div id="modal" class="hidden">
+    <div id="modal-content">
+      <span id="modal-close">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="../static/js/main.js"></script>
+</body>
+</html>

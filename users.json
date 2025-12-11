@@ -1,0 +1,61 @@
+[
+  {
+    "playerName": "dino",
+    "playerPasswordHash": "scrypt:32768:8:1$QSHokZzupap687Am$96feb918017da104865f3a6bfac04cbd8c2296b45ac7079239dac5f24534ce5c32d665140974fee535ce49b12c55aadab41b7a9a2fb31dfe59e398e8c32bd8f3",
+    "playerBadges": [],
+    "playerLoseBadges": [],
+    "playerHowManyWins": 0,
+    "playerHowManyLoses": 0,
+    "playerHowManyTimesPlayed": 0,
+    "jetstream_uses": 0
+  },
+  {
+    "playerName": "elephant",
+    "playerPasswordHash": "scrypt:32768:8:1$jwwy3JT9D63wSJKe$0aed7cd9ff27f960b51204952520dcbaa8acc0432899ffa46ac336d78132c0c07147f520405ef1560a893399471e1ff32618c12b45c5214c9f9cced69be7b627",
+    "playerBadges": [],
+    "playerLoseBadges": [],
+    "playerHowManyWins": 0,
+    "playerHowManyLoses": 0,
+    "playerHowManyTimesPlayed": 0,
+    "jetstream_uses": 0
+  },
+  {
+    "playerName": "demgo",
+    "playerPasswordHash": "scrypt:32768:8:1$ZayAiCIwc638qIjc$40d34d350142816c899332bea8a94519a0f2888f31e42cb7904c698583f24f8504bebe1444628c603e2a27df9fe10fd3738dc46741617a721b8f3bb973942dfa",
+    "playerBadges": [],
+    "playerLoseBadges": [],
+    "playerHowManyWins": 0,
+    "playerHowManyLoses": 0,
+    "playerHowManyTimesPlayed": 0,
+    "jetstream_uses": 0,
+    "game_state_save": null
+  },
+  {
+    "playerName": "helloii",
+    "playerPasswordHash": "scrypt:32768:8:1$iymTuJjIazpcDmUC$4448202e15d67989bb67c09e8c6e2b009370778758859f5cd3050e1274e9f6fb15850e1fae38b1215cbf81b55e6c52b435a9992246eca9c045a892e45036ac64",
+    "playerBadges": [
+      "FULL_SHARDS"
+    ],
+    "playerLoseBadges": [],
+    "playerHowManyWins": 1,
+    "playerHowManyLoses": 22,
+    "playerHowManyTimesPlayed": 23,
+    "jetstream_uses": 0,
+    "game_state_save": {
+      "countShards": 0,
+      "credits": 1000,
+      "currentLocation": "EFHK",
+      "energy": 1000,
+      "fluxfire": 0,
+      "fuel_to_make": "Lumorin",
+      "paradox": {
+        "active": false,
+        "coins": 0,
+        "startTime": 0
+      },
+      "playerName": "helloii",
+      "required_flux": 14,
+      "shards": {}
+    }
+  }
+]

@@ -1,0 +1,48 @@
+/* main.css
+   Style sheet for the ChronoQuest main UI.
+   Only comments updated for clarity; stylesheet rules untouched.
+   - Provides base page layout, header, map area, sidebar, modal, and interactive controls.
+   - Keep selectors and property values unchanged to preserve behavior.
+*/
+
+/* Page basics: reset margins, set system font and soft background */
+body { margin:0; font-family: sans-serif; background:#eef2f5; }
+
+/* Top header: flexible layout that adapts to small widths (wraps when needed).
+   Contains logo, status area, and action buttons aligned horizontally. */
+header { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; padding:10px; background:#333; color:white; }
+
+/* Logo sizing: keep a consistent height so the header remains balanced */
+.logo { height:50px; }
+
+/* Inline player/status info: small spacing between items */
+.status span { margin-right:15px; }
+
+/* Header action buttons: compact controls with clear visual affordance.
+   Buttons include hover color to indicate interactivity. */
+.buttons button { margin:0 5px; padding:6px 12px; background:#ff6600; color:white; border:none; border-radius:4px; cursor:pointer; }
+.buttons button:hover { background:#ff9933; }
+
+/* Main map area: full width mapping surface with a comfortable height */
+#map-wrapper { width:100%; height:600px; margin-top:10px; }
+
+/* Sidebar panel: absolute-positioned detail card anchored to the top-right.
+   Hidden by default and toggled visible by adding the 'visible' class. */
+#sidebar { position:absolute; top:100px; right:10px; background:white; padding:10px; border:1px solid #aaa; border-radius:4px; display:none; width:200px; z-index:1000; }
+#sidebar.visible { display:block; }
+
+/* Travel button inside the sidebar: prominent blue action with hover state */
+#btnTravel { margin-top:10px; padding:6px 12px; background:#0099ff; color:white; border:none; border-radius:4px; cursor:pointer; }
+#btnTravel:hover { background:#33bbff; }
+
+/* Modal overlay: full-viewport semi-opaque backdrop with centered content.
+   The hidden class removes the overlay from view. */
+#modal { position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); display:flex; align-items:center; justify-content:center; z-index:2000; }
+#modal.hidden { display:none; }
+
+/* Modal inner card: scrollable content area with a max-width for readability.
+   Positioned relative so the close control can be absolutely placed. */
+#modal-content { background:white; padding:20px; border-radius:8px; width:80%; max-width:500px; max-height:80%; overflow:auto; position:relative; }
+
+/* Modal close control: easy to find and click/tap */
+#modal-close { position:absolute; top:10px; right:15px; font-size:24px; cursor:pointer; }

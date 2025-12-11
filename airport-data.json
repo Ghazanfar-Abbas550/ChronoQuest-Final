@@ -1,0 +1,220 @@
+[
+  {
+    "name": "Helsinki-Vantaa Airport",
+    "ICAO": "EFHK",
+    "code": "EFHK",
+    "city":"Helsinki",
+    "country": "Finland",
+    "distance": 0,
+    "lat":60.317222,
+    "lon":24.963333
+  },
+  {
+    "name": "London Heathrow Airport",
+    "ICAO": "EGLL",
+    "code": "EGLL",
+    "city": "London",
+    "country": "United Kingdom",
+    "distance": 0,
+    "lat": 51.470020,
+    "lon": -0.454295
+  },
+  {
+    "name": "Charles de Gaulle Airport",
+    "ICAO": "LFPG",
+    "code": "LFPG",
+    "city": "Paris",
+    "country": "France",
+    "distance": 0,
+    "lat": 49.009691,
+    "lon": 2.547926
+  },
+  {
+    "name": "Munich Airport",
+    "ICAO": "EDDM",
+    "code": "EDDM",
+    "city": "Munich",
+    "country": "Germany",
+    "distance": 0,
+    "lat": 48.353783,
+    "lon": 11.786086
+  },
+  {
+    "name": "Adolfo Suárez Madrid–Barajas Airport",
+    "ICAO": "LEMD",
+    "code": "LEMD",
+    "city": "Madrid",
+    "country": "Spain",
+    "distance": 0,
+    "lat": 40.483936,
+    "lon": -3.567954
+  },
+  {
+    "name": "Leonardo da Vinci–Fiumicino Airport",
+    "ICAO": "LIRF",
+    "code": "LIRF",
+    "city": "Rome",
+    "country": "Italy",
+    "distance": 0,
+    "lat": 41.800278,
+    "lon": 12.238889
+  },
+  {
+    "name": "Amsterdam Airport Schiphol",
+    "ICAO": "EHAM",
+    "code": "EHAM",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "distance": 0,
+    "lat": 52.308611,
+    "lon": 4.763889
+  },
+  {
+    "name": "Zurich Airport",
+    "ICAO": "LSZH",
+    "code": "LSZH",
+    "city": "Zurich",
+    "country": "Switzerland",
+    "distance": 0,
+    "lat": 47.451389,
+    "lon": 8.564444
+  },
+  {
+    "name": "Copenhagen Airport",
+    "ICAO": "EKCH",
+    "code": "EKCH",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "distance": 0,
+    "lat": 55.617917,
+    "lon": 12.655972
+  },
+  {
+    "name": "Stockholm Arlanda Airport",
+    "ICAO": "ESSA",
+    "code": "ESSA",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "distance": 0,
+    "lat": 59.64999,
+    "lon": 17.92389
+  },
+  {
+    "name": "Lisbon Airport",
+    "ICAO": "LPPT",
+    "code": "LPPT",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "distance": 0,
+    "lat": 38.7750,
+    "lon": -9.1350
+  },
+  {
+    "name": "Vienna International Airport",
+    "ICAO": "LOWW",
+    "code": "LOWW",
+    "city": "Vienna",
+    "country": "Austria",
+    "distance": 0,
+    "lat": 48.110278,
+    "lon": 16.569722
+  },
+  {
+    "name": "Dublin Airport",
+    "ICAO": "EIDW",
+    "code": "EIDW",
+    "city": "Dublin",
+    "country": "Ireland",
+    "distance": 0,
+    "lat": 53.4264,
+    "lon": -6.2499
+  },
+  {
+    "name": "Athens International Airport",
+    "ICAO": "LGAV",
+    "code": "LGAV",
+    "city": "Athens",
+    "country": "Greece",
+    "distance": 0,
+    "lat": 37.9363,
+    "lon": 23.9474
+  },
+  {
+    "name": "Warsaw Chopin Airport",
+    "ICAO": "EPWA",
+    "code": "EPWA",
+    "city": "Warsaw",
+    "country": "Poland",
+    "distance": 0,
+    "lat": 52.1658,
+    "lon": 20.9671
+  },
+  {
+    "name": "Budapest Ferenc Liszt International Airport",
+    "ICAO": "LHBP",
+    "code": "LHBP",
+    "city": "Budapest",
+    "country": "Hungary",
+    "distance": 0,
+    "lat": 47.4333,
+    "lon": 19.2333
+  },
+  {
+    "name": "Henri Coandă International Airport",
+    "ICAO": "LROP",
+    "code": "LROP",
+    "city": "Bucharest",
+    "country": "Romania",
+    "distance": 0,
+    "lat": 44.5705,
+    "lon": 26.1022
+  },
+  {
+    "name": "Venice Marco Polo Airport",
+    "ICAO": "LIPZ",
+    "code": "LIPZ",
+    "city": "Venice",
+    "country": "Italy",
+    "distance": 0,
+    "lat": 45.5052,
+    "lon": 12.3519
+  },
+  {
+    "name": "Barcelona–El Prat Airport",
+    "ICAO": "LEBL",
+    "code": "LEBL",
+    "city": "Barcelona",
+    "country": "Spain",
+    "distance": 0,
+    "lat": 41.2974,
+    "lon": 2.0833
+  },
+  {
+    "name": "Berlin Brandenburg Airport",
+    "ICAO": "EDDB",
+    "code": "EDDB",
+    "city": "Berlin",
+    "country": "Germany",
+    "distance": 0,
+    "lat": 52.3667,
+    "lon": 13.5033
+  },
+  {
+    "name": "Brussels Airport",
+    "ICAO": "EBBR",
+    "code": "EBBR",
+    "city": "Brussels",
+    "country": "Belgium",
+    "distance": 0,
+    "lat": 50.9014,
+    "lon": 4.4844
+  },
+  { "name": "Stuttgart Airport", "ICAO": "EDDS", "code":"EDDS","city":"Stuttgart","country":"Germany","distance":1411, "lat":48.6889, "lon":9.2222 },
+  { "name": "Riga International Airport", "ICAO": "EVRA","code":"EVRA","city":"Riga","country":"Latvia","distance":2015, "lat":56.9236, "lon":23.9711 },
+  { "name": "Stavanger Airport", "ICAO": "ENZV", "code":"ENZV", "city":"Stavanger", "country":"Norway", "distance":757, "lat":58.876, "lon":5.637 },
+  { "name": "Pescara Airport", "ICAO": "LIPE", "code":"LIPE", "city":"Pescara", "country":"Italy", "distance":1474, "lat":42.431, "lon":14.187 },
+  { "name": "Naples Airport", "ICAO": "LIRN", "code":"LIRN", "city":"Naples", "country":"Italy", "distance":1901, "lat":40.886, "lon":14.290 },
+  { "name": "Oslo Airport", "ICAO": "ENGM", "code":"ENGM", "city":"Oslo", "country":"Norway", "distance":876, "lat":60.1939, "lon":11.1004 },
+  { "name": "Trondheim Airport", "ICAO": "ENTC", "code":"ENTC", "city":"Trondheim", "country":"Norway", "distance":1695, "lat":63.457, "lon":10.923 },
+  { "name": "Porto Airport", "ICAO": "LPFR", "code":"LPFR", "city":"Porto", "country":"Portugal", "distance":2133, "lat":41.242, "lon":-8.678 }
+]

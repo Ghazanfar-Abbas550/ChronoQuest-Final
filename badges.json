@@ -1,0 +1,142 @@
+[
+  {
+    "BadgeName": "Chrono-Navigator",
+    "BadgeID": "CHRONO_NAVIGATOR",
+    "WinOrLoseBadge": "Win",
+    "WhatBadgeDoes": "Completed a ChronoQuest journey.",
+    "HowToEarnBadge": "Achieve a standard victory."
+  },
+  {
+    "BadgeName": "Nexus Pioneer",
+    "BadgeID": "NEXUS_PIONEER",
+    "WinOrLoseBadge": "Win",
+    "WhatBadgeDoes": "Won without using the Buy Range feature.",
+    "HowToEarnBadge": "Win the game without buying energy/range."
+  },
+  {
+    "BadgeName": "Flux-Synthesizer",
+    "BadgeID": "FLUX_SYNTHESIZER",
+    "WinOrLoseBadge": "Win",
+    "WhatBadgeDoes": "Won with exactly the required amount of Fluxfire.",
+    "HowToEarnBadge": "Win the game having exactly the required fluxfire."
+  },
+  {
+    "BadgeName": "Million Mile Mastery",
+    "BadgeID": "MILLION_MILE_MASTERY",
+    "WinOrLoseBadge": "Win",
+    "WhatBadgeDoes": "Won a game in less than 5 travels.",
+    "HowToEarnBadge": "Win the game with a very low travel count (e.g., 5 or less)."
+  },
+  {
+    "BadgeName": "Temporal Architect",
+    "BadgeID": "TEMPORAL_ARCHITECT",
+    "WinOrLoseBadge": "Win",
+    "WhatBadgeDoes": "Escaped the Paradox Trap at least once and won.",
+    "HowToEarnBadge": "Escape the Paradox Trap and then win the game."
+  },
+  {
+    "BadgeName": "The Credit Hoard",
+    "BadgeID": "CREDIT_HOARD",
+    "WinOrLoseBadge": "Win",
+    "WhatBadgeDoes": "Won with over 2000 credits remaining.",
+    "HowToEarnBadge": "Win with a large amount of credits."
+  },
+  {
+    "BadgeName": "Unseen Path Finder",
+    "BadgeID": "UNSEEN_PATH_FINDER",
+    "WinOrLoseBadge": "Win",
+    "WhatBadgeDoes": "Won without triggering a Bandit event.",
+    "HowToEarnBadge": "Win without encountering the Bandit event."
+  },
+  {
+    "BadgeName": "Void Jumper",
+    "BadgeID": "VOID_JUMPER",
+    "WinOrLoseBadge": "Win",
+    "WhatBadgeDoes": "Won after recovering from 10 or less energy.",
+    "HowToEarnBadge": "Win the game after energy dropped to 10 or less."
+  },
+  {
+    "BadgeName": "Elemental Alchemist",
+    "BadgeID": "ELEMENTAL_ALCHEMIST",
+    "WinOrLoseBadge": "Win",
+    "WhatBadgeDoes": "Won by converting Fluxfire to Credits at least once.",
+    "HowToEarnBadge": "Win after using the Buy Credits feature at least once."
+  },
+  {
+    "BadgeName": "The Zero-Hour Success",
+    "BadgeID": "ZERO_HOUR_SUCCESS",
+    "WinOrLoseBadge": "Win",
+    "WhatBadgeDoes": "Won on the first game played.",
+    "HowToEarnBadge": "Win the game on the player's first attempt."
+  },
+  {
+    "BadgeName": "The Chrono-Ghost",
+    "BadgeID": "CHRONO_GHOST",
+    "WinOrLoseBadge": "Lose",
+    "WhatBadgeDoes": "Lost by quitting the game early.",
+    "HowToEarnBadge": "N/A"
+  },
+  {
+    "BadgeName": "The Cosmic Bankrupt",
+    "BadgeID": "COSMIC_BANKRUPT",
+    "WinOrLoseBadge": "Lose",
+    "WhatBadgeDoes": "Lost due to lack of credits and energy (Zero-Zero condition).",
+    "HowToEarnBadge": "N/A"
+  },
+  {
+    "BadgeName": "The Bandit's Prey",
+    "BadgeID": "BANDIT_PREY",
+    "WinOrLoseBadge": "Lose",
+    "WhatBadgeDoes": "Lost after being hit by a Bandit event.",
+    "HowToEarnBadge": "N/A"
+  },
+  {
+    "BadgeName": "The Temporal Stasis",
+    "BadgeID": "TEMPORAL_STASIS",
+    "WinOrLoseBadge": "Lose",
+    "WhatBadgeDoes": "Lost due to Paradox Trap timeout.",
+    "HowToEarnBadge": "N/A"
+  },
+  {
+    "BadgeName": "The Shard Seeker Failure",
+    "BadgeID": "SHARD_SEEKER_FAILURE",
+    "WinOrLoseBadge": "Lose",
+    "WhatBadgeDoes": "Lost with 4 ChronoShards collected.",
+    "HowToEarnBadge": "N/A"
+  },
+  {
+    "BadgeName": "The Inefficient Engine",
+    "BadgeID": "INEFFICIENT_ENGINE",
+    "WinOrLoseBadge": "Lose",
+    "WhatBadgeDoes": "Lost due to lack of energy after heavy range spending.",
+    "HowToEarnBadge": "N/A"
+  },
+  {
+    "BadgeName": "The Accidental Tourist",
+    "BadgeID": "ACCIDENTAL_TOURIST",
+    "WinOrLoseBadge": "Lose",
+    "WhatBadgeDoes": "Lost after traveling to the same airport twice in a row.",
+    "HowToEarnBadge": "N/A"
+  },
+  {
+    "BadgeName": "The Flux Deficit",
+    "BadgeID": "FLUX_DEFICIT",
+    "WinOrLoseBadge": "Lose",
+    "WhatBadgeDoes": "Lost while having enough shards but not enough fluxfire to win.",
+    "HowToEarnBadge": "N/A"
+  },
+  {
+    "BadgeName": "The Overspender",
+    "BadgeID": "OVERSPENDER",
+    "WinOrLoseBadge": "Lose",
+    "WhatBadgeDoes": "Lost immediately after using the Buy Credits feature.",
+    "HowToEarnBadge": "N/A"
+  },
+  {
+    "BadgeName": "The Forgotten Traveler",
+    "BadgeID": "FORGOTTEN_TRAVELER",
+    "WinOrLoseBadge": "Lose",
+    "WhatBadgeDoes": "Lost after accumulating 500+ credits without spending them.",
+    "HowToEarnBadge": "N/A"
+  }
+]
